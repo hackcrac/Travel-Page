@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(35, 35, 35));
+    color: rgb(68, 68, 68)
+}
+
+header{
+    position: static;
+}
+
+#page-logo a{
+    color: rgb(183, 230, 235);
+}
+
+ul a{
+    color: rgb(183, 230, 235);
+}
+
+ul a:hover{
+    background-color: rgb(235, 253, 255);;
+}
+
+main ul{
+    width: 1400px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    gap: 20px;
+}
+
+main li{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+main li:nth-of-type(3){
+    grid-column: 1/ span 2;
+}
+
+main li img{
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.item-content{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+   padding: 10px;
+}
+
+.actions{
+    text-align: right;
+}
+
+.actions a{
+    padding: 10px;
+    color: rgb(22, 211, 228);
+}
+
+
